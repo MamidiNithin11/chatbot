@@ -1,26 +1,24 @@
- 🧑‍💻 Frontend README  
-Place this in: `chatbot-app/frontend/README.md`
 
 ```markdown
-# 💬 AI Chatbot – Frontend (React)
+ 💬 AI Chatbot – Frontend (React)
 
 A modern, responsive chat interface built with **React**, designed to work with an AI-powered backend.  
 Supports real-time message rendering, typing indicators, and Markdown-formatted responses from the AI model.
 
 ---
 
-## 🔧 Tech Stack
+🔧 Tech Stack
 
-- **Framework**: React
-- **Styling**: CSS
-- **HTTP Client**: Axios
-- **Markdown Rendering**: ReactMarkdown
+Framework: React
+Styling: CSS
+HTTP Client: Axios
+Markdown Rendering: ReactMarkdown
 
 ---
 
-## 🚀 How to Run
+ 🚀 How to Run
 
-### 1. Install Dependencies
+ 1. Install Dependencies
 
 ```bash
 npm install
@@ -87,28 +85,28 @@ MIT License – see [`LICENSE`](../LICENSE) for details.
 
 ---
 
-# 🛠️ Backend README  
+ 🛠️ Backend README  
 Place this in: `chatbot-app/backend/README.md`
 
 ```markdown
-# ⚙️ AI Chatbot – Backend (Node.js + Express)
+⚙️ AI Chatbot – Backend (Node.js + Express)
 
 A secure and scalable backend service for connecting a React frontend to an AI language model (LLM), such as GPT-4 via OpenRouter.
 
 ---
 
-## 🔧 Tech Stack
+ 🔧 Tech Stack
 
-- **Runtime**: Node.js
-- **Framework**: Express
-- **HTTP Client**: Axios
-- **Security**: dotenv, CORS middleware
+Runtime: Node.js
+Framework: Express
+HTTP Client: Axios
+Security: dotenv, CORS middleware
 
 ---
 
-## 🚀 How to Run
+ 🚀 How to Run
 
-### 1. Install Dependencies
+1. Install Dependencies
 
 ```bash
 npm install

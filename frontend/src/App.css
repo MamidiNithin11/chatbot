@@ -1,0 +1,144 @@
+.app-container{
+  min-height:90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url('https://static.vecteezy.com/system/resources/thumbnails/020/823/871/small_2x/creative-design-of-3d-background-with-neon-colors-and-liquid-gradients-neon-colors-vibrant-gradients-3d-animation-seamless-loop-in-4k-abstract-colorful-wave-backdrop-seamless-loop-free-video.jpg');
+  background-size: cover;
+  color: #333;
+  font-family: Arial, sans-serif;
+}
+
+.chat-container {
+  width:90%;
+  height:60vh;
+  text-align:center;
+  margin: 50px auto;
+  font-family: Arial;
+  background:#ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  display:flex;
+  flex-direction: column;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  
+}
+
+.chat-box {
+  height:70vh;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  text-align:start;
+  margin-bottom: 10px;
+  background: #f9f9f9;
+  border-radius: 8px;
+  
+}
+
+.message {
+  margin: 10px 0;
+  padding: 8px 12px;
+  border-radius: 5px;
+  min-width:20px;
+  max-width: 80%;
+  color: #333;
+  font-size:15px;
+  
+}
+
+.user {
+  background-color: #d1e7dd;
+  align-self: flex-end;
+  margin-left: auto;
+  
+}
+
+.bot {
+  background-color: #f8d7da;
+  align-self: flex-start;
+}
+
+.input-area {
+  display: flex;
+}
+
+.input-area input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 8px;
+}
+
+.input-area button {
+  padding: 10px 15px;
+  font-size: 16px;
+}
+
+.button{
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left:10px;
+}
+.button:hover {
+  background-color: #0056b3;
+}
+
+.heading{
+      font-family:"Roboto", sans-serif;
+      font-size:5rem;
+      margin-bottom:0px;
+      font-weight: bold;
+      text-align: center;
+      background-image: url('https://t3.ftcdn.net/jpg/08/54/81/76/360_F_854817659_npdz70cH86GUJKu9LPDFJ5DxNAHyobms.jpg');
+      background-clip: text;
+      color: transparent;
+      background-repeat: repeat-x;
+      background-size: contain;
+      animation: slide-bg 50s linear infinite;
+      box-sizing:content;
+    }
+
+    @keyframes slide-bg {
+      0% {
+        background-position: 0 0;
+      }
+      100% {
+        background-position: 100% 0;
+      }
+    }
+
+    .chat-container{
+      font-family:"Roboto", sans-serif;
+      font-size:4rem;
+      font-weight: bold;
+      text-align: center;
+      background-image: url('https://static.vecteezy.com/system/resources/thumbnails/019/660/867/small_2x/creative-design-of-3d-background-with-neon-colors-and-liquid-gradients-neon-colors-and-vibrant-gradients-animate-a-seamless-abstract-colorful-wave-backdrop-seamless-free-video.jpg');
+      background-clip:background;
+      color: transparent;
+      background-repeat: repeat-x;
+      background-size: contain;
+      animation: slide-bg 80s linear infinite;
+      box-sizing:content;
+    }
+
+    @keyframes slide-bg {
+      0% {
+        background-position: 0 0;
+      }
+      100% {
+        background-position: 100% 0;
+      }
+    }
+    .input-field{
+      width: 100%;
+      padding: 10px;
+      font-size: 16px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+    }

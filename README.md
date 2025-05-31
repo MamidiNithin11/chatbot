@@ -1,4 +1,4 @@
-# 🧑‍💻 Frontend README  
+ 🧑‍💻 Frontend README  
 Place this in: `chatbot-app/frontend/README.md`
 
 ```markdown
@@ -26,7 +26,7 @@ Supports real-time message rendering, typing indicators, and Markdown-formatted 
 npm install
 ```
 
-### 2. Start Development Server
+ 2. Start Development Server
 
 ```bash
 npm start
@@ -37,17 +37,17 @@ Make sure the **backend is running on port 5001** before starting the frontend.
 
 ---
 
-## 📦 Features
+ 📦 Features
 
-- ✅ Responsive chat UI
-- ✅ Typing indicator while waiting for AI response
-- ✅ Markdown rendering for rich-formatted replies
-- ✅ Message bubbles for user and bot
-- ✅ Keyboard "Enter" to send message
+ ✅ Responsive chat UI
+ ✅ Typing indicator while waiting for AI response
+ ✅ Markdown rendering for rich-formatted replies
+ ✅ Message bubbles for user and bot
+ ✅ Keyboard "Enter" to send message
 
 ---
 
-## 🌐 API Integration
+🌐 API Integration
 
 Sends requests to:
 
@@ -80,7 +80,7 @@ frontend/
 
 ---
 
-## 📄 License
+ 📄 License
 
 MIT License – see [`LICENSE`](../LICENSE) for details.
 ```
@@ -114,7 +114,7 @@ A secure and scalable backend service for connecting a React frontend to an AI l
 npm install
 ```
 
-### 2. Set Up Environment Variables
+ 2. Set Up Environment Variables
 
 Create a `.env` file:
 
@@ -125,7 +125,7 @@ PORT=5001
 
 You can get your key at: [https://openrouter.ai/keys](https://openrouter.ai/keys)
 
-### 3. Start the Server
+ 3. Start the Server
 
 ```bash
 node server.js
@@ -135,18 +135,18 @@ API will be available at: [http://localhost:5001/chat](http://localhost:5001/cha
 
 ---
 
-## 🌐 API Endpoint
+ 🌐 API Endpoint
 
-### POST `/chat`
+ POST `/chat`
 
-**Request Body**
+Request Body
 ```json
 {
   "message": "Explain how gravity works."
 }
 ```
 
-**Response**
+Response
 ```json
 {
   "reply": "Gravity is a force that attracts objects with mass..."
@@ -155,7 +155,7 @@ API will be available at: [http://localhost:5001/chat](http://localhost:5001/cha
 
 ---
 
-## 📦 Features
+ 📦 Features
 
 - ✅ Secure handling of API keys
 - ✅ Proxy for AI model APIs
@@ -164,7 +164,7 @@ API will be available at: [http://localhost:5001/chat](http://localhost:5001/cha
 
 ---
 
-## 📁 Project Structure
+📁 Project Structure
 
 ```
 backend/
@@ -175,7 +175,7 @@ backend/
 
 ---
 
-## 📝 Contributing
+📝 Contributing
 
 Contributions are welcome!  
 If you'd like to enhance the backend logic or integrate additional AI providers, feel free to open a PR or issue.
